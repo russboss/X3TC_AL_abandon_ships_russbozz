@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl"?>
+<!--Produced externally by the Exscriptor-->
+<script>
+   <name>al.plugin.russbozz.abandon.ships</name>
+   <version>4</version>
+   <engineversion>44</engineversion>
+   <description>Tutorial - AL Plugin by LV : use as a template</description>
+   <arguments />
+   <sourcetext>
+      <line linenr="001" indent=""><text>load text: id=</text><var>9314</var><text></text></line>
+      <line linenr="002" indent=""><comment>* load your t file number</comment></line>
+      <line linenr="003" indent=""> </line>
+      <line linenr="004" indent=""><text>al engine: register script=</text><var></var><call>al.russbozz.abandon.ships.main</call><var></var><text></text></line>
+      <line linenr="005" indent=""><comment>* this load the al main script</comment></line>
+      <line linenr="006" indent=""> </line>
+      <line linenr="007" indent=""> </line>
+      <line linenr="008" indent=""><var>$scriptName = </var><text></text><var>'AL Abandoned Ships' </var><text></text></line>
+      <line linenr="009" indent=""><var>$name = </var><text></text><var>'Russbozz' </var><text></text></line>
+      <line linenr="010" indent=""><var>$configScript = </var><text></text><var>'al.russbozz.abandon.ships.config' </var><text></text></line>
+      <line linenr="011" indent=""><var>$section = </var><text></text><var>'Artificial Life' </var><text></text></line>
+      <line linenr="012" indent="" interruptable="@"><text></text><var> =</var><text> </text><var>[THIS]</var><text></text><var> -> </var><text>call script </text><var></var><call>plugin.config.addscript</call><var></var><text> : Plugin Name=</text><var>$scriptName</var><text>  Author=</text><var>$name</var><text>  Script Name=</text><var>$configScript</var><text>  Display author=</text><var>[TRUE]</var><text>  Add to section=</text><var>$section</var><text>  Menu=</text><var>null</var><text> </text></line>
+      <line linenr="013" indent=""> </line>
+      <line linenr="014" indent=""><text>return </text><var>null</var><text></text></line>
+      <line linenr="015" indent=""> </line>
+      <line linenr="016" indent=""> </line>
+   </sourcetext>
+   <codearray>
+      <sval type="array" size="10">
+         <sval type="string" val="al.plugin.russbozz.abandon.ships" />
+         <sval type="int" val="44" />
+         <sval type="string" val="Tutorial - AL Plugin by LV : use as a template" />
+         <sval type="int" val="4" />
+         <sval type="int" val="0" />
+         <sval type="array" size="4">
+            <sval type="string" val="scriptName" />
+            <sval type="string" val="name" />
+            <sval type="string" val="configScript" />
+            <sval type="string" val="section" />
+         </sval>
+         <sval type="array" size="8">
+            <sval type="array" size="3">
+               <sval type="int" val="151" />
+               <sval type="int" val="4" />
+               <sval type="int" val="9314" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="1000" />
+               <sval type="string" val="al.russbozz.abandon.ships.main" />
+            </sval>
+            <sval type="array" size="7">
+               <sval type="int" val="104" />
+               <sval type="int" val="0" />
+               <sval type="int" val="1" />
+               <sval type="int" val="5" />
+               <sval type="string" val="AL Abandoned Ships" />
+               <sval type="int" val="1" />
+               <sval type="int" val="-1" />
+            </sval>
+            <sval type="array" size="7">
+               <sval type="int" val="104" />
+               <sval type="int" val="1" />
+               <sval type="int" val="1" />
+               <sval type="int" val="5" />
+               <sval type="string" val="Russbozz" />
+               <sval type="int" val="1" />
+               <sval type="int" val="-1" />
+            </sval>
+            <sval type="array" size="7">
+               <sval type="int" val="104" />
+               <sval type="int" val="2" />
+               <sval type="int" val="1" />
+               <sval type="int" val="5" />
+               <sval type="string" val="al.russbozz.abandon.ships.config" />
+               <sval type="int" val="1" />
+               <sval type="int" val="-1" />
+            </sval>
+            <sval type="array" size="7">
+               <sval type="int" val="104" />
+               <sval type="int" val="3" />
+               <sval type="int" val="1" />
+               <sval type="int" val="5" />
+               <sval type="string" val="Artificial Life" />
+               <sval type="int" val="1" />
+               <sval type="int" val="-1" />
+            </sval>
+            <sval type="array" size="18">
+               <sval type="int" val="102" />
+               <sval type="string" val="plugin.config.addscript" />
+               <sval type="int" val="-2147483647" />
+               <sval type="int" val="131075" />
+               <sval type="int" val="1" />
+               <sval type="int" val="6" />
+               <sval type="int" val="131074" />
+               <sval type="int" val="0" />
+               <sval type="int" val="131074" />
+               <sval type="int" val="1" />
+               <sval type="int" val="131074" />
+               <sval type="int" val="2" />
+               <sval type="int" val="131075" />
+               <sval type="int" val="10" />
+               <sval type="int" val="131074" />
+               <sval type="int" val="3" />
+               <sval type="int" val="0" />
+               <sval type="int" val="0" />
+            </sval>
+            <sval type="array" size="3">
+               <sval type="int" val="103" />
+               <sval type="int" val="0" />
+               <sval type="int" val="0" />
+            </sval>
+         </sval>
+         <sval type="int" val="0" />
+         <sval type="array" size="8">
+            <sval type="array" size="3">
+               <sval type="int" val="1" />
+               <sval type="int" val="1" />
+               <sval type="string" val="load your t file number" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="1" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="3">
+               <sval type="int" val="2" />
+               <sval type="int" val="1" />
+               <sval type="string" val="this load the al main script" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="2" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="2" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="7" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="8" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="8" />
+               <sval type="int" val="2" />
+            </sval>
+         </sval>
+         <sval type="int" val="0" />
+      </sval>
+   </codearray>
+</script>

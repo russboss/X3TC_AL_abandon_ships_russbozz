@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl"?>
+<!--Produced externally by the Exscriptor-->
+<script>
+   <name>turret.cmd.russbozz.turret.idle</name>
+   <version>2</version>
+   <engineversion>44</engineversion>
+   <description>Turret Idle</description>
+   <arguments>
+      <argument index="0" name="turretid" type="Var/Number" desc="turret id" />
+   </arguments>
+   <sourcetext>
+      <line linenr="001" indent=""><var>while </var><text></text><var>1 </var><text></text></line>
+      <line linenr="002" indent="&#160;" interruptable="@"><text></text><var> =</var><text> wait </text><var>999999</var><text> ms</text></line>
+      <line linenr="003" indent=""><text>end</text></line>
+      <line linenr="004" indent=""><text>return </text><var>null</var><text></text></line>
+      <line linenr="005" indent=""> </line>
+      <line linenr="006" indent=""> </line>
+      <line linenr="007" indent=""> </line>
+   </sourcetext>
+   <codearray>
+      <sval type="array" size="10">
+         <sval type="string" val="turret.cmd.russbozz.turret.idle" />
+         <sval type="int" val="44" />
+         <sval type="string" val="Turret Idle" />
+         <sval type="int" val="2" />
+         <sval type="int" val="0" />
+         <sval type="array" size="1">
+            <sval type="string" val="turretid" />
+         </sval>
+         <sval type="array" size="4">
+            <sval type="array" size="7">
+               <sval type="int" val="104" />
+               <sval type="int" val="-1610611959" />
+               <sval type="int" val="1" />
+               <sval type="int" val="4" />
+               <sval type="int" val="1" />
+               <sval type="int" val="1" />
+               <sval type="int" val="-1" />
+            </sval>
+            <sval type="array" size="4">
+               <sval type="int" val="105" />
+               <sval type="int" val="-2147483647" />
+               <sval type="int" val="4" />
+               <sval type="int" val="999999" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="112" />
+               <sval type="int" val="0" />
+            </sval>
+            <sval type="array" size="3">
+               <sval type="int" val="103" />
+               <sval type="int" val="0" />
+               <sval type="int" val="0" />
+            </sval>
+         </sval>
+         <sval type="array" size="1">
+            <sval type="array" size="2">
+               <sval type="int" val="10" />
+               <sval type="string" val="turret id" />
+            </sval>
+         </sval>
+         <sval type="array" size="4">
+            <sval type="array" size="2">
+               <sval type="int" val="3" />
+               <sval type="int" val="4" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="4" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="4" />
+               <sval type="int" val="2" />
+            </sval>
+            <sval type="array" size="2">
+               <sval type="int" val="4" />
+               <sval type="int" val="2" />
+            </sval>
+         </sval>
+         <sval type="int" val="105" />
+      </sval>
+   </codearray>
+</script>
